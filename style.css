@@ -5,15 +5,20 @@
     font-family: Lato, sans-serif;
 }
 
-.header {
+header {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
 
-.header img {
+header img {
     width: 100%;
+}
+
+h1 {
+    font-size: 100%;
+    font-weight: normal;
 }
 
 .more-inf {
@@ -22,13 +27,13 @@
 
 @media (max-width:768px) {
 
-.header { 
+header { 
     text-align: center;
     }
 
 }
 
-.main {
+main {
     display: block;
     width: 500px;
     margin: 0 auto 0;
@@ -166,7 +171,7 @@ li > .delete:hover {
 }
 
 /* Edit Task */
-input[type=text] {
+li input[type=text] {
     display: none;
 }
 
